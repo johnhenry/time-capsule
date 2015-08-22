@@ -37,12 +37,14 @@ app.use(bodyParser.text());
 app.post('/', function(req, res){
   var key = hat();
   var input = req.body;
-  console.log("---\n%s\n---\nWill be posted to /%s when ready.",
+  console.log('---\n%s\n---\nWill be posted to /%s when ready.',
     input,
     key);
   processAsynchronously(input)
-  .then(function(response){
-    data[key] = response;
+  .then(function(value){
+    data[key] = value;
+    console.log('%s is now available.', key);
+    console.log('---\n%s\n---', value);
   });
   res
     .status(202)
