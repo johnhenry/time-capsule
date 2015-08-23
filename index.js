@@ -74,5 +74,5 @@ app.get('/:key', function(req, res){
 app.listen(8080, function(){
   console.log('Server running on port %s', PORT);
   console.log('POST raw text to /');
-  console.log('GET text from /:id');
+  console.log('GET text from /:key');
 });

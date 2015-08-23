@@ -26,7 +26,7 @@ The default address 127.0.0.1:8080.
   - path - path to value
   - ready - number of milliseconds until ready
 
-###GET /:id -- Retreive Stored Text
+###GET /:key -- Retreive Stored Text
 
   Response: a JSON object with the following properties
   - value - value of stored text
