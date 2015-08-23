@@ -6,8 +6,8 @@ It allows you to post text to a server and, after time, retreive it via a key.
 ##Installation
 
 ```bash
-  git clone ~
-  cd async-sample
+  git clone git@github.com:johnhenry/time-capsule.git
+  cd time-capsule
   npm install
   npm start
 ```
