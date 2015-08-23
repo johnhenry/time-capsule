@@ -1,6 +1,6 @@
 #Time Capsule
 
-This is an example of an asynchronous application in node
+This is an example of an asynchronous application in node.
 It allows you to post text to a server and, after time, retreive it via a key.
 
 ##Installation
